@@ -1,4 +1,6 @@
-# 2021红岩网校工作站移动开发部Android方向寒假考核说明文档
+## 2021红岩网校工作站移动开发部Android方向寒假考核说明文档
+
+
 
 ### 写在最前面
 
@@ -45,6 +47,7 @@
 - 代码规范，命名，分包，values。
 - 本地数据的缓存
 - UI，毕竟好的UI总会给人一种好感
+- 禁止使用第三方库（Glide除外）
 
 #### 加分内容
 
@@ -52,12 +55,10 @@
 - 好看的UI
 - 使用Kotlin语言开发项目
 - 自定义View（封装一些好看的控件等等）
-- 封装常用工具类（网络请求，图片加载库，sp数据库）
+- 封装常用工具类（网络请求，sp数据库等）
 - 自己实现API后端接口
 
 #### 减分内容
-
-- 使用第三方库（图片加载库Glide不算）
 
 - 态度敷衍，app简陋
 
@@ -78,13 +79,13 @@
   - 心得体会
   - 待提升优化的地方
 - 将项目打包成APK
-- 除了Glide图片加载库，其他网络请求，gson解析不能使用第三方库。（除非使用Retrofit和Rxjava)或者Kotlin的协程
+- 除了Glide图片加载库，其他网络请求，gson解析方法不能使用第三方库。（Retrofit和Rxjava除外)或者Kotlin的协程
 
 ### 考核提交
 
 ------
 
-- 截止日期：2021年。。
+- 截止日期：2021年2月21日
 - 提交方式：发送邮件到[mredrock@163.com](mailto:mredrock@163.com)
   - 邮件标题：2021寒假考核-学号-姓名。如：2021寒假考核-2019210xxx-邱天
   - 邮件正文：Github仓库地址
@@ -98,11 +99,26 @@
 ------
 
 1. 一个自己想做的App
+
    - 但是需要包含网络请求，可以自己找接口，也可以自己撸后端
+
 2. 玩Android(参考app可以下载玩Andorid)
+
    - ApI文档：https://www.wanandroid.com/blog/show/2
+
 3. 彩云天气
-   - https://dashboard.caiyunapp.com/ 彩云官方注册一个账号
+
+   - https://dashboard.caiyunapp.com/彩云官方注册一个账号
    - 申请令牌信息。提交申请，得到令牌值
    - 使用彩云天气提供的各种APi接口。
-4. 
+
+4. POST 那年今日的接口  https://v1.alapi.cn/api/eventHitory
+
+   
+
+5. 图灵机器人：https://qiyukf.com/robot?hmsr=baidu&hmkw=bd1_tzc_p55419&renqun_youhua=254323&bd_vid=8094320582130189116
+
+   
+
+6. 高德地图https://lbs.amap.com/
+
